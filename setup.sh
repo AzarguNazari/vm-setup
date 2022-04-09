@@ -19,3 +19,11 @@ sudo apt-get install google-chrome-stabl
 sudo snap install --classic code
 
 
+# install curl
+sudo apt install -y curl
+
+# install nodejs
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt install -y nodejs
+node --version
+
